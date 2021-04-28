@@ -1,4 +1,4 @@
-import BasePage from '../page-objects/BasePage';
+import BasePage from '../pages/BasePage';
 import {
 	addToCartButton,
 	successMessage,
@@ -6,7 +6,7 @@ import {
 	closeBtn,
 	itemCount,
 	productCount,
-} from '../utils/locators';
+} from '../selectors/locators';
 
 export default class AddtoCartPage extends BasePage {
 	static clickChiffonDress() {

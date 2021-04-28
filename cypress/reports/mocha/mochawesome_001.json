@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-28T13:39:50.758Z",
+    "end": "2021-04-28T13:40:05.735Z",
+    "duration": 14977,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "84c2f20e-51be-4b3e-ab16-26a7cf97ca4d",
+      "title": "",
+      "fullFile": "cypress/integration/checkTotalPrice.spec.js",
+      "file": "cypress/integration/checkTotalPrice.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "33223d7b-07e0-4478-bca7-4b703d683160",
+          "title": "Add the product quantity as five to the cart and check the total price",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check the title, url and links on the Landing Page",
+              "fullTitle": "Add the product quantity as five to the cart and check the total price Check the title, url and links on the Landing Page",
+              "timedOut": null,
+              "duration": 6750,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LandingPage.default.verifyTitle();\n_LandingPage.default.verifyUrl();\n_LandingPage.default.verifyForPageToLoad();\n_LandingPage.default.contactLink();\n_LandingPage.default.loginLink();",
+              "err": {},
+              "uuid": "5ae879f8-b14a-4da3-972b-bace934adac3",
+              "parentUUID": "33223d7b-07e0-4478-bca7-4b703d683160",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on the 5th Product with 5% discount on the Landing Page",
+              "fullTitle": "Add the product quantity as five to the cart and check the total price Click on the 5th Product with 5% discount on the Landing Page",
+              "timedOut": null,
+              "duration": 2563,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.printedSummerDress();\n_ProductPage.default.verifyTitle();",
+              "err": {},
+              "uuid": "5195c22d-089a-4ab5-a8b2-27a31f304977",
+              "parentUUID": "33223d7b-07e0-4478-bca7-4b703d683160",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add quantity as 5 for the product",
+              "fullTitle": "Add the product quantity as five to the cart and check the total price Add quantity as 5 for the product",
+              "timedOut": null,
+              "duration": 5562,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.addQuantity();",
+              "err": {},
+              "uuid": "61815727-88ec-434c-9d27-e2efd5120e1d",
+              "parentUUID": "33223d7b-07e0-4478-bca7-4b703d683160",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check whether the Total price is accurate from the Cart",
+              "fullTitle": "Add the product quantity as five to the cart and check the total price Check whether the Total price is accurate from the Cart",
+              "timedOut": null,
+              "duration": 29,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.verifyTotalPrice();",
+              "err": {},
+              "uuid": "449e9f74-7063-4020-bfc3-454aa16e7fd9",
+              "parentUUID": "33223d7b-07e0-4478-bca7-4b703d683160",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5ae879f8-b14a-4da3-972b-bace934adac3",
+            "5195c22d-089a-4ab5-a8b2-27a31f304977",
+            "61815727-88ec-434c-9d27-e2efd5120e1d",
+            "449e9f74-7063-4020-bfc3-454aa16e7fd9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14904,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

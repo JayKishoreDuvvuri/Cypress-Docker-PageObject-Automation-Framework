@@ -1,5 +1,5 @@
-import LandingPage from '.././page-objects/LandingPage';
-import ProductPage from '.././page-objects/ProductPage';
+import LandingPage from '.././pages/LandingPage';
+import ProductPage from '.././pages/ProductPage';
 
 // ### 1. Launch the Application
 // ### 2. Click on the 5th Product with 5% discount from the list

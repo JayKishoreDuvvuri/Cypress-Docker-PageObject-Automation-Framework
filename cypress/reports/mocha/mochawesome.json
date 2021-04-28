@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-28T13:39:39.086Z",
+    "end": "2021-04-28T13:39:49.706Z",
+    "duration": 10620,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "57a44c9d-8278-441c-84db-48e54e4afd16",
+      "title": "",
+      "fullFile": "cypress/integration/addToCart.spec.js",
+      "file": "cypress/integration/addToCart.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "32819d21-1104-47d4-8f3e-abece9c7f5ec",
+          "title": "Add to Cart",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check the title, url and links on the Landing Page",
+              "fullTitle": "Add to Cart Check the title, url and links on the Landing Page",
+              "timedOut": null,
+              "duration": 5852,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LandingPage.default.verifyTitle();\n_LandingPage.default.verifyUrl();\n_LandingPage.default.verifyForPageToLoad();\n_LandingPage.default.contactLink();\n_LandingPage.default.loginLink();",
+              "err": {},
+              "uuid": "174354c7-6a55-433b-9d8f-2beebdc4c2a1",
+              "parentUUID": "32819d21-1104-47d4-8f3e-abece9c7f5ec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "click on 20% discount listed Item",
+              "fullTitle": "Add to Cart click on 20% discount listed Item",
+              "timedOut": null,
+              "duration": 2987,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LandingPage.default.printedChiffonDress();\n_AddToCartPage.default.clickChiffonDress();",
+              "err": {},
+              "uuid": "f49a36ef-7e62-441d-b958-6597ed0029a5",
+              "parentUUID": "32819d21-1104-47d4-8f3e-abece9c7f5ec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check whether the Add to Cart Button is enabled and click product to add to Cart",
+              "fullTitle": "Add to Cart Check whether the Add to Cart Button is enabled and click product to add to Cart",
+              "timedOut": null,
+              "duration": 977,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AddToCartPage.default.clickAddToCart();",
+              "err": {},
+              "uuid": "4997567e-f40f-4af0-a537-90ed8da56708",
+              "parentUUID": "32819d21-1104-47d4-8f3e-abece9c7f5ec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify whether the product added to Cart message is displayed",
+              "fullTitle": "Add to Cart Verify whether the product added to Cart message is displayed",
+              "timedOut": null,
+              "duration": 568,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AddToCartPage.default.cartSuccessMessage();\n_AddToCartPage.default.cartAddedMessage();",
+              "err": {},
+              "uuid": "66f8ba7f-7cd0-4fb4-8d01-a5431801d9dd",
+              "parentUUID": "32819d21-1104-47d4-8f3e-abece9c7f5ec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the product count from the Cart",
+              "fullTitle": "Add to Cart Verify the product count from the Cart",
+              "timedOut": null,
+              "duration": 152,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AddToCartPage.default.cartCount();",
+              "err": {},
+              "uuid": "c1a5b71f-d44e-46b8-a02d-285299a06b5e",
+              "parentUUID": "32819d21-1104-47d4-8f3e-abece9c7f5ec",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "174354c7-6a55-433b-9d8f-2beebdc4c2a1",
+            "f49a36ef-7e62-441d-b958-6597ed0029a5",
+            "4997567e-f40f-4af0-a537-90ed8da56708",
+            "66f8ba7f-7cd0-4fb4-8d01-a5431801d9dd",
+            "c1a5b71f-d44e-46b8-a02d-285299a06b5e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10536,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

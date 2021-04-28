@@ -1,4 +1,4 @@
-import AddtoCartPage from '../page-objects/AddToCartPage';
+import AddtoCartPage from '../pages/AddToCartPage';
 import {
 	colourSelected,
 	colourBlack,
@@ -13,7 +13,7 @@ import {
 	checkout,
 	productPrice,
 	totalProductPrice,
-} from '../utils/locators';
+} from '../selectors/locators';
 
 export default class ProductPage extends AddtoCartPage {
 	static printedSummerDress() {

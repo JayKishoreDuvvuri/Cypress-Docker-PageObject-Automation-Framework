@@ -1,4 +1,4 @@
-import { homePageImage, landingPageTitle } from '../utils/locators';
+import { homePageImage, landingPageTitle } from '../selectors/locators';
 
 export default class BasePage {
 	static openApp() {

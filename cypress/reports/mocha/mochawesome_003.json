@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-28T13:40:16.737Z",
+    "end": "2021-04-28T13:40:35.023Z",
+    "duration": 18286,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3e3a772a-c0a1-4e61-82c0-de0795f6b615",
+      "title": "",
+      "fullFile": "cypress/integration/toggleProductColour.spec.js",
+      "file": "cypress/integration/toggleProductColour.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+          "title": "Toggle between the colours of the Product",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check the title, url and links on the Landing Page",
+              "fullTitle": "Toggle between the colours of the Product Check the title, url and links on the Landing Page",
+              "timedOut": null,
+              "duration": 9599,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LandingPage.default.verifyTitle();\n_LandingPage.default.verifyUrl();\n_LandingPage.default.verifyForPageToLoad();\n_LandingPage.default.contactLink();\n_LandingPage.default.loginLink();",
+              "err": {},
+              "uuid": "c686bf9f-d862-4b04-a53e-075a39104eb2",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on the 5th Product with 5% discount on the Landing Page",
+              "fullTitle": "Toggle between the colours of the Product Click on the 5th Product with 5% discount on the Landing Page",
+              "timedOut": null,
+              "duration": 2709,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.printedSummerDress();\n_ProductPage.default.verifyTitle();",
+              "err": {},
+              "uuid": "34acb1dc-9dab-46cc-9da0-19cee86d5b3d",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check when selecting black colour the image is updated",
+              "fullTitle": "Toggle between the colours of the Product Check when selecting black colour the image is updated",
+              "timedOut": null,
+              "duration": 307,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.blackColour();\n_ProductPage.default.colourSelected();\n_ProductPage.default.blackColourImageUpdated();",
+              "err": {},
+              "uuid": "33439074-21e2-431f-9cde-44c4389abfd3",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check when selecting orange colour the image is updated",
+              "fullTitle": "Toggle between the colours of the Product Check when selecting orange colour the image is updated",
+              "timedOut": null,
+              "duration": 485,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.orangeColour();\n_ProductPage.default.colourSelected();\n_ProductPage.default.orangeColourImageUpdated();",
+              "err": {},
+              "uuid": "fe820059-86d0-4aad-b538-b79c8cb17825",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check when selecting blue colour the image is updated",
+              "fullTitle": "Toggle between the colours of the Product Check when selecting blue colour the image is updated",
+              "timedOut": null,
+              "duration": 503,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.blueColour();\n_ProductPage.default.colourSelected();\n_ProductPage.default.blueColourImageUpdated();",
+              "err": {},
+              "uuid": "48a16660-50e1-43f9-897f-e37d1aa47c89",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check when selecting yellow colour the image is updated",
+              "fullTitle": "Toggle between the colours of the Product Check when selecting yellow colour the image is updated",
+              "timedOut": null,
+              "duration": 485,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.yellowColour();\n_ProductPage.default.colourSelected();\n_ProductPage.default.yellowColourImageUpdated();",
+              "err": {},
+              "uuid": "90c148ea-ade4-4ce1-9030-5d6ab83eaa48",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigate to Landing Page",
+              "fullTitle": "Toggle between the colours of the Product Navigate to Landing Page",
+              "timedOut": null,
+              "duration": 4083,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ProductPage.default.navigateToHomePage();",
+              "err": {},
+              "uuid": "dde754f2-3274-4934-83f7-cf0ec789a4c0",
+              "parentUUID": "0ea75cdf-4596-40f2-8b67-33f7f82426c1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c686bf9f-d862-4b04-a53e-075a39104eb2",
+            "34acb1dc-9dab-46cc-9da0-19cee86d5b3d",
+            "33439074-21e2-431f-9cde-44c4389abfd3",
+            "fe820059-86d0-4aad-b538-b79c8cb17825",
+            "48a16660-50e1-43f9-897f-e37d1aa47c89",
+            "90c148ea-ade4-4ce1-9030-5d6ab83eaa48",
+            "dde754f2-3274-4934-83f7-cf0ec789a4c0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18171,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

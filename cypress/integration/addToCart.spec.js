@@ -1,5 +1,5 @@
-import LandingPage from '.././page-objects/LandingPage';
-import AddToCartPage from '.././page-objects/AddToCartPage';
+import LandingPage from '.././pages/LandingPage';
+import AddToCartPage from '.././pages/AddToCartPage';
 
 // ### 1. Launch the Application
 // ### 2. Select the Product

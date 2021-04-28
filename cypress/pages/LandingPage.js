@@ -1,5 +1,5 @@
-import BasePage from '../page-objects/BasePage';
-import { printedDressTwo, printedSummerDressTwo } from '../utils/locators';
+import BasePage from '../pages/BasePage';
+import { printedDressTwo, printedSummerDressTwo } from '../selectors/locators';
 
 export default class LandingPage extends BasePage {
 	static fadedShortSleeveTshirts() {

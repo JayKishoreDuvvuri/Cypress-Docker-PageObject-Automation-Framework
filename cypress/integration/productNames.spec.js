@@ -1,4 +1,4 @@
-import LandingPage from '.././page-objects/LandingPage';
+import LandingPage from '.././pages/LandingPage';
 
 // ### 1. Launch the Application
 // ### 2. Arrive on the Landing Page
